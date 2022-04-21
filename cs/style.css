@@ -10,6 +10,8 @@ ul{
         text-decoration:none;
         background-color: #5d6b6e;
         list-style: none;
+
+                       
 }
 li{
         font-size: 4vh;
@@ -21,6 +23,15 @@ li a{
         text-decoration: none;
         color: rgb(0, 0, 0);
 }
+.caja7{
+        -webkit-transition: 0.5s linear;
+        transition: 0.5s linear;
+      }
+      .caja7:hover{
+        -webkit-transform: translateY(13px);
+        transform: translateY(13px);
+      }
+        
 
 article {
     width: 800px;
@@ -28,7 +39,7 @@ article {
     font-size: 22px;
 }
 body {
-    background-color: #112230;
+    background-color:#112230;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -70,8 +81,14 @@ h2{
 }
 img{
         border: solid  rgb(172, 172, 172);
+        mix-blend-mode: lighten;
         
+ 
 }
+.dos{
+      background: linear-gradient(to right, rgb(141, 111, 162));
+}
+
 
 .parrafo{
         display: grid;
@@ -155,22 +172,26 @@ button{
                 width: 100%;
                 height: 30%;
         }
-        .boton{
-                display: block;
-                float: right;
-                font-size: 20px;
-                padding: 6px 20px;
-                position: absolute;
-                width: 100%;
-                background-color: antiquewhite;
-                height: 37px;
-        }
-        .boton:hover{
-                top: -27px;
-                z-index: 100;
-        }
+        
 }
-@media (hover:hover){
-        display: grid: .parrafo;
+@media only screen and (max-width:650px){
+        
+        .contenedor{
+                display: flex;
+                flex-wrap: wrap;
+        }
+        .uno{
+                width: 30%;
+                height: 70%;
+        }
+        .dos{
+                width: 70%;
+                height: 70%;
+        }
+        .tres{
+                width: 100%;
+                height: 30%;
+        
+        }
 }
 
