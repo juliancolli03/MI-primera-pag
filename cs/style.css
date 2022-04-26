@@ -2,44 +2,24 @@
     margin: 0;
     padding: 0;
 }
-ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        border: 0.1cm solid rgb(159, 179, 172);
-        text-decoration:none;
-        background-color: #5d6b6e;
-        list-style: none;
-
-                       
-}
-li{
-        font-size: 4vh;
-        font-family: Impact;
-        padding: 2vh 0;
-        text-transform: uppercase;
-}
-li a{
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-}
-.caja7{
-        -webkit-transition: 0.5s linear;
-        transition: 0.5s linear;
-      }
-      .caja7:hover{
-        -webkit-transform: translateY(13px);
-        transform: translateY(13px);
-      }
+.navbar-nav {
+        font-family: Impact, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
         
-
+}
+.nav-link:hover {
+        border-bottom: 3p solid white;
+        transition: 0.3s; 
+}      
+             
 article {
     width: 800px;
     padding: 10px;
     font-size: 22px;
 }
 body {
-    background-color:#112230;
+    background: rgb(66,118,147);
+    background: linear-gradient(90deg, rgba(66,118,147,1) 0%, rgba(16,29,133,0) 0%, rgba(72,80,137,1) 0%, rgba(136,137,141,1) 100%, rgba(17,31,197,1) 100%);
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -79,24 +59,20 @@ h2{
         font-size: 35px;
         padding: 10px;
 }
-img{
+/* img{
         border: solid  rgb(172, 172, 172);
-        mix-blend-mode: lighten;
-        
- 
-}
-.dos{
-      background: linear-gradient(to right, rgb(141, 111, 162));
-}
+        mix-blend-mode:hard-light
+} */
 
 
 .parrafo{
         display: grid;
-        color: mistyrose;
-        font-size: 1cm;
-        line-height: 50px;
-        margin: 100px 10px 10px 10px;
-        text-shadow: 5px 5px 5px rgb(108, 103, 146);
+        color: rgb(15, 16, 18);
+        font-size: 1.2cm;
+        line-height: 60px;
+        margin: 130px 10px 10px 10px;
+        text-shadow: 10px 10px 10px rgb(19, 10, 86);
+        margin-top: 190px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .titulo{
@@ -122,7 +98,6 @@ img{
 }
 form{
         background-color: rgb(98, 94, 94);
-        
         width: 450px;
         margin: auto;
         padding: 10px 20px;
@@ -138,10 +113,7 @@ input{
         box-sizing: border-box;
         font-size: 17px;
 }
-button{
-        background: #31384A;
-        color: #fff
-}
+
 .contenedor{
         display:flex
               
