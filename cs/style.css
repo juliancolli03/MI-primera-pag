@@ -20,14 +20,14 @@
 /* nav */
     .nav-link{
         color: white;
-        font-size: 20px;
+        font-size: 1.250em;
         font-family: serif;
-        margin-right: 30px;
+        margin-right: 1.875em;
         justify-content: flex-end;
     }
     .nav-item{
         /* justify-content: flex-end; */
-        padding-left: 78px;
+        padding-left: 4.875em;
     }
              
 article {
