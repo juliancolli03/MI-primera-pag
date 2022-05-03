@@ -187,4 +187,15 @@ input{
         
         }
 }
-
+@media only screen and (max-width:1344px){
+        .nav-link{
+                font-size: 1.2em;
+                justify-content: flex-end;
+        }
+}
+@media only screen and (max-width:1316px){
+        .nav-link{
+                font-size: 1.1em;
+                justify-content: flex-end;
+        }
+}
