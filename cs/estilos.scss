@@ -1,8 +1,18 @@
 *{
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
+
+
     /* max-width: 100%; */
     /* box-sizing:border-box ; */
+}
+@mixin mixin{
+        color: rgb(255, 255, 255);
+        margin-top: 5px;
+        font-family: monospace;
+        font-size: 35px;
+        padding: 10px;
+        
 }
 /* .navbar-nav {
         color: white;
@@ -20,33 +30,32 @@
 /* nav */
 nav{
 
-
-    .nav-link{
+.nav-link{
+        
         color: white;
         font-size: 1.250em;
         font-family: serif;
         margin-right: 1.875em;
         justify-content: flex-end;
-    }
-    .nav-item{
+}
+.nav-item{
         /* justify-content: flex-end; */
         padding-left: 4.875em;
-    }
 }
-             
+}             
 article {
-    width: 800px;
-    padding: 10px;
-    font-size: 22px;
+width: 800px;
+padding: 10px;
+font-size: 22px;
 }
 body {
-    background: rgb(72,80,137);
-    background: linear-gradient(90deg, rgba(72,80,137,1) 0%, rgba(0,0,0,0) 0%, rgba(144,189,215,1) 0%, rgba(2,6,6,0.15686968838526916) 100%);
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+background: rgb(72,80,137);
+background: linear-gradient(90deg, rgba(72,80,137,1) 0%, rgba(0,0,0,0) 0%, rgba(144,189,215,1) 0%, rgba(2,6,6,0.15686968838526916) 100%);
+margin: 0;
+padding: 0;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
 }
 h1{
         display: grid;
@@ -55,15 +64,14 @@ h1{
         font-size: 40px;
         padding: 10px;
 }
-footer{
-       
-    width: 100%;
-    color: rgb(208, 30, 27);
-    font-size: 50px;
-    padding-top: 20px;
-    text-align: center;
-    margin-top: auto;
-    p{
+footer{       
+width: 100%;
+color: rgb(208, 30, 27);
+font-size: 50px;
+padding-top: 20px;
+text-align: center;
+margin-top: auto;
+p{
         font-size: 20px;
         background-color: rgb(7, 7, 6);
         padding-top: 20px;
@@ -72,7 +80,7 @@ footer{
         color: rgb(208, 30, 27);
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
-    }
+}
 }
 // footer p{
 //         font-size: 20px;
@@ -85,11 +93,12 @@ footer{
 //         font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 // }
 h2{
-        color: white;
-        margin-top: 5px;
-        font-family: monospace;
-        font-size: 35px;
-        padding: 10px;
+        @include mixin()
+        // color: rgb(255, 255, 255);
+        // margin-top: 5px;
+        // font-family: monospace;
+        // font-size: 35px;
+        // padding: 10px;
 }
 /* img{
         border: solid  rgb(172, 172, 172);
@@ -99,7 +108,7 @@ h2{
 
 .parrafo{
         display: grid;
-        color: rgb(15, 16, 18);
+        color: $color-letra;
         font-size: 1.2cm;
         line-height: 60px;
         margin: 130px 10px 10px 10px;
@@ -148,10 +157,9 @@ input{
 
 .contenedor{
         display:flex
-              
-}
+        }
 .foto{
-    height: 370px;
+        height: 270px + 100px;
 }
 .lorem{
         float: right;
@@ -167,19 +175,11 @@ input{
 }
 @media (max-width:995px){
 
-        /* ul{ 
-                flex-direction: column;
-        }
+nav .nav-item
+        {       justify-content: flex-end;
+                padding-left: 0;
         
-        nav{
-                padding:  10px 0px;
-                display: block;
-                width: 100%;
-                height: 30%;
-        } */
-        .nav-item{
-          padding-left: 10px;
-        }
+}
 }
 @media only screen and (max-width:650px){
         
@@ -188,25 +188,26 @@ input{
                 flex-wrap: wrap;
         }
         .uno{
-                width: 30%;
-                height: 70%;
+        width: 30%;
+        height: 70%;
         }
         .dos{
-                width: 70%;
-                height: 70%;
+        width: 70%;
+        height: 70%;
         }
         .tres{
-                width: 100%;
-                height: 30%;
+        width: 100%;
+        height: 30%;
         
         }
 }
 @media only screen and (max-width:1344px){
         .nav-link{
-                font-size: 1.2em;
-                justify-content: flex-end;
+        font-size: 1.2em;
+        justify-content: flex-end;
         }
 }
+$color-letra: color rgb(15, 16, 18);
 /* @media only screen and (min-width:1217px){      
         .nav-link{
                 font-size: 1.2em;
