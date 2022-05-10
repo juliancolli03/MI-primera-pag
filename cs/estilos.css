@@ -21,7 +21,7 @@
 nav .nav-link {
   color: white;
   font-size: 1.250em;
-  font-family: serif;
+  font-family: 'Times New Roman';
   margin-right: 1.875em;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -143,7 +143,7 @@ input {
   margin-bottom: 30px;
   padding: 7px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 17px;
 }
 
@@ -171,7 +171,7 @@ input {
   display: none;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 1100px) {
   nav .nav-item {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
@@ -179,7 +179,24 @@ input {
     padding-left: 0;
   }
 }
-
+@media (max-width: 1201px) {
+  nav .nav-item {
+    font-size: 1.150em;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-left: 0;
+  }
+}
+ @media (max-width: 1301px) {
+  nav .nav-item {
+    font-size: 1.2em;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-left: 0;
+  }
+}
 @media only screen and (max-width: 650px) {
   .contenedor {
     display: -webkit-box;
@@ -210,7 +227,6 @@ input {
             justify-content: flex-end;
   }
 }
-
 /* @media only screen and (min-width:1217px){      
         .nav-link{
                 font-size: 1.2em;

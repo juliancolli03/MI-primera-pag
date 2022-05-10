@@ -21,7 +21,7 @@
 /* nav */
 nav .nav-link {
   color: white;
-  font-size: 1.25em;
+  font-size: 1.30em;
   font-family: serif;
   margin-right: 1.875em;
   justify-content: flex-end;
@@ -197,6 +197,7 @@ input {
   justify-content: flex-end;
 }
 }
+
 /* @media only screen and (min-width:1217px){      
         .nav-link{
                 font-size: 1.2em;

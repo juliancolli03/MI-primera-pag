@@ -6,7 +6,7 @@ padding: 0;
     /* max-width: 100%; */
     /* box-sizing:border-box ; */
 }
-@mixin mixin{
+@mixin gg{
         color: rgb(255, 255, 255);
         margin-top: 5px;
         font-family: monospace;
@@ -14,9 +14,10 @@ padding: 0;
         padding: 10px;
         
 }
-/* .navbar-nav {
-        color: white;
-        font-size: 20px;
+
+// navbar-nav {
+//         color: white;
+//         font-size: 20px;
         /* display: flex; */
         /* flex-direction: row;
         justify-content: flex-end;
@@ -93,7 +94,7 @@ p{
 //         font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 // }
 h2{
-        @include mixin()
+        @include gg()
         // color: rgb(255, 255, 255);
         // margin-top: 5px;
         // font-family: monospace;
@@ -121,7 +122,9 @@ h2{
         margin-top: 3rem;
         
 }
+// alinee los textos con el extend
 .contactame{
+        @extend .titulo;
         color: #fff;
         text-align: center;
         margin: 0;
@@ -134,8 +137,6 @@ h2{
         background-size:100vw 100vh;
         background-attachment: fixed;
         margin: 0;
-
-
 }
 form{
         background-color: rgb(98, 94, 94);
@@ -207,7 +208,14 @@ nav .nav-item
         justify-content: flex-end;
         }
 }
+// cree mi variable con el color
 $color-letra: color rgb(15, 16, 18);
+// le declaro un tamaño de fuente a mi h1
+$headings: (
+        h1: 40px
+        h2: 3px
+);
+$h1: map-get($headings, h1)
 /* @media only screen and (min-width:1217px){      
         .nav-link{
                 font-size: 1.2em;
