@@ -18,6 +18,8 @@
         transition: 0.9s; 
 }      */
 /* nav */
+
+/* ULTIMO NAV
 nav .nav-link {
   color: white;
   font-size: 1.250em;
@@ -30,9 +32,25 @@ nav .nav-link {
 
 nav .nav-item {
   /* justify-content: flex-end; */
-  padding-left: 4.875em;
-}
+  /* padding-left: 4.875em;
+} */ */
 
+/* .navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 10px;
+  padding-left: 50px;
+} */
+.nav-link .active{
+  font-family: 'Courier New', Courier, monospace;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 40px;
+  padding-left: 20px;
+}
+.navbar-collapse{
+  flex-grow: 0;
+  padding-right: 40px;
+  padding-left: 20px;
+}
 article {
   width: 800px;
   padding: 10px;
