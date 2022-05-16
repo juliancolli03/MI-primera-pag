@@ -40,6 +40,10 @@ nav .nav-item {
   padding-right: 40px;
   padding-left: 20px;
 }
+.navbar_style ul li a:hover {
+  color: 	#fc4b08 !important;
+}
+
 header ul li a {
   color: white;
   text-decoration: none;
@@ -59,7 +63,32 @@ article {
   padding: 10px;
   font-size: 22px;
 }
+header ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
 
+}
+.habilidaddes{
+  display: flex;
+  background: #f1f1ef;
+  width: 600px;
+  justify-content: center;
+}
+.web{
+  padding: 100px;
+  justify-content: center;
+}
+.li{
+  margin: 0px 5px 0px 5px;
+}
+header ul li:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 body {
   background: #485089;
   background: -webkit-gradient(linear, left top, right top, from(#485089), color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, #90bdd7), to(rgba(2, 6, 6, 0.15687)));
@@ -67,8 +96,6 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -118,7 +145,6 @@ h2 {
         mix-blend-mode:hard-light
 } */
 .parrafo {
-  display: -ms-grid;
   display: grid;
   font-size: 1.2cm;
   line-height: 60px;
@@ -127,6 +153,8 @@ h2 {
   margin-top: 190px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
 
 .titulo {
   text-align: center;
@@ -188,7 +216,9 @@ input {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+.parr{
+  text-align: left;
+}
 .redes-container{
   display: flex;
   height: 10vh;
@@ -257,13 +287,17 @@ input {
     padding-left: 0;
   }
 }
+@media (max-width: 650px){
+  .parrafo{
+    margin-top: 10px;
+  }
+
+}
 @media only screen and (max-width: 650px) {
   .contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .uno {
     width: 30%;
@@ -291,6 +325,15 @@ input {
             justify-content: flex-end;
   }
 }
+@media (max-width:1000px){
+  header ul li:hover {
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
 /* @media only screen and (min-width:1217px){      
         .nav-link{
                 font-size: 1.2em;
