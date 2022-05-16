@@ -77,11 +77,16 @@ header ul li a {
   justify-content: center;
 }
 .web{
-  padding: 100px;
+  display: flex;
   justify-content: center;
 }
 .li{
   margin: 0px 5px 0px 5px;
+}
+.iconss{
+  font-size: 30px;
+  list-style-type: none;
+  line-height: 60px;
 }
 header ul li:hover {
   -webkit-transform: scale(1.2);
@@ -114,7 +119,7 @@ h1 {
 
 footer {
   width: 100%;
-  color: #d01e1b;
+  color: #e6eef0;
   font-size: 50px;
   padding-top: 20px;
   text-align: center;
@@ -122,14 +127,17 @@ footer {
 }
 
 footer p {
-  font-size: 20px;
-  background-color: #070706;
+  font-size: 15px;
+  background-color: #494646;
+  padding-left: 10px;
   padding-top: 20px;
+  padding-bottom: 16px;
+  padding-right: 10px;
   margin-top: auto;
   width: 100%;
-  color: #d01e1b;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-family: 'Koulen';
+  font-family: 'Varela Round', sans-serif;
 }
 
 h2 {
@@ -165,6 +173,7 @@ h2 {
   color: #fff;
   text-align: center;
   margin: 0;
+  padding-top: 20px;
   font-size: 30px;
   margin-bottom: 20px;
   font-family: monospace;
@@ -242,6 +251,69 @@ input {
   box-shadow: 0 3px 5px 0px black;
   transition: .2s;
   border-radius: 30px;
+  animation: move linear 2000ms infinite;
+}
+  @keyframes move {
+    0% {
+      box-shadow:
+        4px -4px 0 hsla(0, 100%, 50%, 1), 
+        3px -3px 0 hsla(0, 100%, 50%, 1), 
+        2px -2px 0 hsla(0, 100%, 50%, 1), 
+        1px -1px 0 hsla(0, 100%, 50%, 1),
+        -4px 4px 0 hsla(180, 100%, 50%, 1), 
+        -3px 3px 0 hsla(180, 100%, 50%, 1), 
+        -2px 2px 0 hsla(180, 100%, 50%, 1), 
+        -1px 1px 0 hsla(180, 100%, 50%, 1)
+      ;
+    }
+    25% {    
+      box-shadow:      
+        -4px -4px 0 hsla(180, 100%, 50%, 1), 
+        -3px -3px 0 hsla(180, 100%, 50%, 1), 
+        -2px -2px 0 hsla(180, 100%, 50%, 1), 
+        -1px -1px 0 hsla(180, 100%, 50%, 1),
+        4px 4px 0 hsla(0, 100%, 50%, 1), 
+        3px 3px 0 hsla(0, 100%, 50%, 1), 
+        2px 2px 0 hsla(0, 100%, 50%, 1), 
+        1px 1px 0 hsla(0, 100%, 50%, 1)      
+      ;
+    }
+    50% {
+      box-shadow:
+        -4px 4px 0 hsla(0, 100%, 50%, 1), 
+        -3px 3px 0 hsla(0, 100%, 50%, 1), 
+        -2px 2px 0 hsla(0, 100%, 50%, 1), 
+        -1px 1px 0 hsla(0, 100%, 50%, 1),
+        4px -4px 0 hsla(180, 100%, 50%, 1), 
+        3px -3px 0 hsla(180, 100%, 50%, 1), 
+        2px -2px 0 hsla(180, 100%, 50%, 1), 
+        1px -1px 0 hsla(180, 100%, 50%, 1)
+      ;
+    }
+    75% {
+     box-shadow:
+        4px 4px 0 hsla(180, 100%, 50%, 1), 
+        3px 3px 0 hsla(180, 100%, 50%, 1), 
+        2px 2px 0 hsla(180, 100%, 50%, 1), 
+        1px 1px 0 hsla(180, 100%, 50%, 1),
+        -4px -4px 0 hsla(0, 100%, 50%, 1), 
+        -3px -3px 0 hsla(0, 100%, 50%, 1), 
+        -2px -2px 0 hsla(0, 100%, 50%, 1), 
+        -1px -1px 0 hsla(0, 100%, 50%, 1)      
+      ;
+    }
+    100% {
+      box-shadow:
+        4px -4px 0 hsla(0, 100%, 50%, 1), 
+        3px -3px 0 hsla(0, 100%, 50%, 1), 
+        2px -2px 0 hsla(0, 100%, 50%, 1), 
+        1px -1px 0 hsla(0, 100%, 50%, 1),
+        -4px 4px 0 hsla(180, 100%, 50%, 1), 
+        -3px 3px 0 hsla(180, 100%, 50%, 1), 
+        -2px 2px 0 hsla(180, 100%, 50%, 1), 
+        -1px 1px 0 hsla(180, 100%, 50%, 1)
+      ;
+    } 
 }
 .redes-container ul:hover a{
   filter: blur(1px);
