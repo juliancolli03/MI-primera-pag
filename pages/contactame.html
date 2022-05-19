@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../cs/estilos.css">
     <script src="https://kit.fontawesome.com/0d4573db38.js" crossorigin="anonymous"></script>
 </head>
-<body class="g">
+<body>
     <header>
       <nav class="navbar navbar_style navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -47,31 +47,42 @@
       </nav> 
 </header>
     <section>
-        <h1 class="contactame">Contactame
-         <p class="parr"> Aca te dejo un formulario de contacto, por si queres contactarme y tambien mis redes sociales.</p> 
-        </h1>
-    </section>
-
-      <div class="contact-wrapper animated bounceInUp">
-          <div>
-              <form action="">
+              <div>
+                <h1 class="contactame">CONTACTAME </h1>
                 <div>
-                    <label for="nombre">Nombre y apellido</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Tú Nombre y apellido">
-                </div>
-                <div>
-                    <label for="nombre">Email</label>
-                    <input type="email" class="form-control" id="nombre"  placeholder="Tú email de contacto">
-                </div>
-                <div>
-                    <label for="nombre">Mensaje</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Mensaje que quieras enviar">
-                </div>
-                <button class="btn btn-primary" type="submit" >Enviar</button>
-            </form>
-          </div>
-          </div>
-
+                    <div class="contacto-formulario">
+                        <form action="">
+                            <p>
+                                <label>Tu Nombre</label>
+                                <input type="text" name="Nombre">
+                            </p>
+                            <p>
+                                <label>Tu apellido</label>
+                                <input type="text" name="apellido">
+                            </p>
+                            <p>
+                                <label>Numero de telefono</label>
+                                <input type="tel" name="numero">
+                            </p>
+                            <p>
+                                <label>Tu mail</label>
+                                <input type="email" name="mail">
+                            </p>
+                            <p class="envoar">
+                              <label>Mensaje que quieras enviar</label> 
+                                <textarea name="Mensaje que quieras enviar" rows="2"></textarea>
+                            </p>
+                            <p class="envoar">
+                                <button>
+                                    Enviar Mensaje
+                                </button>
+                            </p>
+                        </form>
+                    </div>
+              </div>
+        
+            </div>
+          </section>
   </div>
     <div class="redes-container">
       <ul>
@@ -79,7 +90,7 @@
         <li> <a href="https://www.linkedin.com/in/julian-colli-05395a231/" class="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
         <li> <a href="https://wa.me/5491169253825" class="wsp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
       </ul>
-   </div>
+  </div>
     <footer> 
         <p class="mb-0">  Todos los derechos reservados, Julian Colli 2022</p> 
     </footer>
