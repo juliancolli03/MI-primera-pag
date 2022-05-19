@@ -36,17 +36,6 @@ article {
   padding: 10px;
   font-size: 22px;
 }
-
-.habilidaddes{
-  background: #1d1d19;
-  width: 540px;
-  border-radius: 50px;
-  border:rgb(33, 33, 167) 5px solid;
-}
-.web{
-  display: flex;
-  justify-content: center;
-}
 .li{
   margin: 0px 5px 0px 5px;
 }
@@ -125,6 +114,9 @@ h2 {
   text-align: center;
   margin-top: 3rem;
 }
+.porcentajes{
+  color: white;
+}
 /* --PAG FORMULARIO-- */ 
 form {
   background-color: #625e5e;
@@ -146,12 +138,6 @@ form {
   color: #000000;
   padding-top: 30px;
 }
-/* .container {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5em;
-} */
 
 .contacto-formulario form {
   display: grid;
@@ -317,38 +303,6 @@ form {
 .parr{
   text-align: left;
 }
-.habb{
-  text-align: center;
-  color: #333;
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
-}
-.html{
-  list-style: none;
-  color: #c56419;
-  font-size: 100px;
-  padding-left: 3px;
-}
-.hmt{
-  color: white;
-}
-.css{
-  list-style: none;
-  color:  #0077B5;
-  font-size: 70px;
-  padding-left: 8px;
-}
-.bostrap{
-  list-style: none;
-  color: #352a84;
-  font-size: 80px;
-}
-.github{
-  list-style: none;
-  color: #e6eef0;
-  font-size: 80px;
-  padding-left: 6px;
-}
 .prox{
   text-align: center;
   font-size: 30px;
@@ -412,4 +366,110 @@ justify-content: center;
   }
 }
 
+a partir de aca
+
+.mislenguajes{
+	width: 100%;
+	padding: 100px 0px;
+}
+.h{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+	
+}
+.cajita{
+	height: 400px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	text-align: center;
+	border: #78d9f1 5px solid;
+}
+.caja2iconos{
+	display: flex;
+	justify-content: center;
+}
+.cajita i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	
+
+}
+.tituloscajas{
+  font-family: 'Montserrat', sans-serif;
+	color: rgb(246, 242, 242);
+	font-size: 23px;
+	margin-bottom: 15px;
+  padding-top: 1px;
+}
+.paarrafo p{
+	color: rgb(247, 247, 247);
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.html{
+	list-style: none;
+	color: #c56419;
+	padding-left: 3px;
+  }
+  .css{
+	list-style: none;
+	color:  #0077B5;
+	padding-left: 8px;
+  }
+  .bostrap{
+	list-style: none;
+	color: #352a84;
+  }
+  .github{
+	list-style: none;
+	color: #e6eef0;
+  }
+  .tengo{
+    margin-top: -13px;
+  }
+@media(max-width: 650px) {
+	.h{
+		display:grid;
+	}
+	
+  }
+  @media(max-width: 720px) {
+    .cajita{
+      width: 300px;
+    }
+  @media(max-width: 1040px) {
+	.cajita{
+		width: 300px;
+	}
+}
+  }
+  @media(max-width: 1040px){
+    .paarrafo p{
+      font-size: 13px;
+    }
+  }
+  @media(max-width: 760px){
+    .paarrafo p{
+      font-size: 11px;
+    }
+  }
+  @media(max-width: 650px){
+    .paarrafo p{
+      font-size: 20px;
+    }
+  }
+  @media(max-width: 760px){
+    .tituloscajas{
+      font-size: 17px;
+    }
+  }
 /*# sourceMappingURL=estilos.css.map */
