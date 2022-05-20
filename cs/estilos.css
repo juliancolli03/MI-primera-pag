@@ -1,3 +1,4 @@
+/* --SELECTOR UNIVERSAL-- */
 *{
   margin: 0;
   padding: 0;
@@ -31,18 +32,10 @@ header ul li:hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-article {
-  width: 800px;
-  padding: 10px;
-  font-size: 22px;
-}
 .li{
   margin: 0px 5px 0px 5px;
 }
-.iconss{
-  list-style-type: none;
-}
-
+/* --FONDO--- */
 body {
   background: #485089;
   background: -webkit-gradient(linear, left top, right top, from(#485089), color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, #90bdd7), to(rgba(2, 6, 6, 0.15687)));
@@ -56,15 +49,55 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
+/* ---PAGINADELINDEX.HTML--- */
 h1 {
   display: grid;
-  color: white;
-  font-family: monospace;
-  font-size: 40px;
+  color: rgb(16, 15, 15);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
   padding: 10px;
 }
-
+.pc{
+  color: white;
+}
+.graduado{
+  color: white;
+}
+h2 {
+  color: rgb(15, 15, 15);
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+.parrafo {
+  display: grid;
+  font-size: 1.2cm;
+  line-height: 60px;
+  margin: 130px 10px 10px 10px;
+  text-shadow: 10px 10px 10px #362f67;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foto {
+  height: 370px;
+  padding-left: 5px;
+  mix-blend-mode: hard-light;
+  border-radius: 20px 20px 20px 20px;
+}
+a{
+  text-decoration: none;
+  background: #262424;
+  border: 0;
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+  border-radius: 30px;
+  text-transform: none;
+}
+span :hover{
+  color: 	#d0dc27;
+}
+/* ---FOOTER---- */
 footer {
   width: 100%;
   color: #e6eef0;
@@ -88,27 +121,12 @@ footer p {
   font-family: 'Varela Round', sans-serif;
 }
 
-h2 {
-  color: rgb(255, 255, 255);
-  margin-top: 5px;
-  font-family: monospace;
-  font-size: 35px;
-  padding: 10px;
-}
 
 /* img{
         border: solid  rgb(172, 172, 172);
         mix-blend-mode:hard-light
 } */
-.parrafo {
-  display: grid;
-  font-size: 1.2cm;
-  line-height: 60px;
-  margin: 130px 10px 10px 10px;
-  text-shadow: 10px 10px 10px #362f67;
-  margin-top: 190px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 /* --PAG SOBRE MI-- */
 .titulo {
   text-align: center;
@@ -285,10 +303,7 @@ form {
   margin-top: 20px; */
 }
 
-.foto {
-  height: 370px;
-  padding-left: 5px;
-}
+
 
 .lorem {
   float: right;
@@ -322,12 +337,6 @@ justify-content: center;
   padding-left: 20px;
   font-size: 80px;
   color:cyan
-}
-@media (max-width: 650px){
-  .parrafo{
-    margin-top: 10px;
-  }
-
 }
 @media only screen and (max-width: 650px) {
   .contenedor {
