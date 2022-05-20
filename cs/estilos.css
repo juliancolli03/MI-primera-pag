@@ -5,6 +5,7 @@
 }
 /* ---NAV---- */
 */
+
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 40px;
   padding-left: 20px;
@@ -22,6 +23,7 @@ header ul li a {
 .navbar-brand{
   font-size: 17px;
   font-family: 'Montserrat', sans-serif;
+  margin-left: -5px;
 }
 .navbar-collapse{
   flex-grow: 0;
@@ -75,8 +77,9 @@ h2 {
   font-size: 1.2cm;
   line-height: 60px;
   margin: 130px 10px 10px 10px;
-  text-shadow: 10px 10px 10px #362f67;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Koulen', cursive;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Varela Round', sans-serif;
 }
 .foto {
   height: 370px;
@@ -96,6 +99,9 @@ a{
 }
 span :hover{
   color: 	#d0dc27;
+}
+.contenedor {
+  display: flex;
 }
 /* ---FOOTER---- */
 footer {
@@ -120,21 +126,12 @@ footer p {
   font-family: 'Koulen';
   font-family: 'Varela Round', sans-serif;
 }
-
-
-/* img{
-        border: solid  rgb(172, 172, 172);
-        mix-blend-mode:hard-light
-} */
-
 /* --PAG SOBRE MI-- */
 .titulo {
   text-align: center;
   margin-top: 3rem;
 }
-.porcentajes{
-  color: white;
-}
+
 /* --PAG FORMULARIO-- */ 
 form {
   background-color: #625e5e;
@@ -297,27 +294,19 @@ form {
 .redes-container ul li .linkedin:hover{
   color: #0077B5;
 }
-.contenedor {
-  display: flex;
-  /* justify-content: center;
-  margin-top: 20px; */
-}
-
-
-
 .lorem {
-  float: right;
   display: block;
-  color: mistyrose;
+  color: rgb(28, 26, 26);
   font-size: 1cm;
   line-height: 50px;
-  margin: 100px 10px 10px 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 50px 50px;
+  font-family: 'Koulen', cursive;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Varela Round', sans-serif;
 }
+  
+/* PAGINA MISHABILIDADES,CAJAS USADA EN ESA PAG,E INDEX */
 
-.parr{
-  text-align: left;
-}
 .prox{
   text-align: center;
   font-size: 30px;
@@ -325,68 +314,27 @@ form {
   color: #1d1d19;
 }
 .futuro{
-  display: inherit;
+display: inherit;
 align-items: center;
 justify-content: center;
 }
 .js{
-  font-size: 80px;
-  color:yellow
+font-size: 80px;
+color:yellow;
 }
 .react{
-  padding-left: 20px;
+padding-left: 20px;
   font-size: 80px;
-  color:cyan
+  color:cyan;
 }
-@media only screen and (max-width: 650px) {
-  .contenedor {
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .uno {
-    width: 30%;
-    height: 70%;
-  }
-  .dos {
-    width: 70%;
-    height: 70%;
-  }
-  .tres {
-    width: 100%;
-    height: 30%;
-  }
-}
-@media (max-width:1000px){
-  header ul li:hover {
-    -webkit-transform: none;
-    transform: none;
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
-
-/*--FORMULARIO */
-@media(max-width: 700px) {
-  form{
-    font-size: 12px;
-    width: 350px;
-  }
-}
-
-a partir de aca
-
 .mislenguajes{
 	width: 100%;
-	padding: 100px 0px;
 }
 .h{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 400px;
-	
 }
 .cajita{
 	height: 400px;
@@ -407,8 +355,6 @@ a partir de aca
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	
-
 }
 .tituloscajas{
   font-family: 'Montserrat', sans-serif;
@@ -423,62 +369,92 @@ a partir de aca
 	line-height: 27px;
 	margin-bottom: 25px;
 }
-
 .html{
 	list-style: none;
 	color: #c56419;
 	padding-left: 3px;
-  }
-  .css{
+}
+.css{
 	list-style: none;
 	color:  #0077B5;
 	padding-left: 8px;
-  }
-  .bostrap{
+}
+.bostrap{
 	list-style: none;
 	color: #352a84;
-  }
-  .github{
+}
+.github{
 	list-style: none;
 	color: #e6eef0;
-  }
-  .tengo{
-    margin-top: -13px;
-  }
+}
+.tengo{
+  margin-top: -13px;
+}
+/* MEDIDAS PARA RESPONSIVE */
 @media(max-width: 650px) {
 	.h{
 		display:grid;
 	}
-	
   }
   @media(max-width: 720px) {
     .cajita{
       width: 300px;
     }
-  @media(max-width: 1040px) {
-	.cajita{
-		width: 300px;
-	}
-}
   }
   @media(max-width: 1040px){
     .paarrafo p{
       font-size: 13px;
     }
-  }
-  @media(max-width: 760px){
-    .paarrafo p{
-      font-size: 11px;
-    }
-  }
-  @media(max-width: 650px){
-    .paarrafo p{
-      font-size: 20px;
+    .cajita{
+      width: 300px;
     }
   }
   @media(max-width: 760px){
+    .paarrafo p{
+      font-size: 17px;
+    }
     .tituloscajas{
       font-size: 17px;
     }
   }
+  @media(max-width: 386px){
+    a{
+      font-size: 20px;
+    }
+  }
+@media(max-width: 700px) {
+  form{
+    font-size: 12px;
+    width: 350px;
+  }
+}
+@media(max-width: 650px) {
+  .contenedor {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .uno {
+    width: 30%;
+    height: 70%;
+  }
+  .dos {
+    width: 70%;
+    height: 70%;
+  }
+  .parrafo{
+    margin-top: 40px
+  }
+  a{
+    font-size: 20px;
+  }
+}
+@media (max-width:1000px){
+  header ul li:hover {
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
 /*# sourceMappingURL=estilos.css.map */
