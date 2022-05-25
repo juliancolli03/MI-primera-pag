@@ -93,7 +93,7 @@ a{
   border: 0;
   padding: 10px;
 }
-span :hover{
+.span :hover{
   color: 	#d0dc27;
 }
 .contenedor {
@@ -457,8 +457,8 @@ margin-right: 20px;
 margin-left: 20px;
   }
   .lorem{
-    -webkit-animation: focus-in-contract-bck 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	  animation: focus-in-contract-bck 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	  animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
   }
   @media(max-width: 720px) {
@@ -522,4 +522,13 @@ margin-left: 20px;
     transition: none;
   }
 }
+@media (max-width:450px){
+  .parrafo{
+    font-size: 0.7cm;
+  }
+  .lorem{
+    font-size: 0.7cm;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */
