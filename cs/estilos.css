@@ -372,10 +372,6 @@ padding-left: 20px;
   margin-top: -13px;
 }
 /* PAG SOBREMI Y PORQUECONTRATARME */
-.body{
-  display: flex;
-  min-height: 100vh;
-}
 .lorem {
   display: block;
   color: rgb(24, 23, 23);
@@ -445,6 +441,68 @@ font-family: 'Varela Round', sans-serif;
   display: flex;
 justify-content: center;
 }
+.fondo1{
+	background:#21c8f6;
+}
+.fondo2{
+	background:#ffe300;
+}
+.titulosprogra{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.tarjetasprogramadores{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.facebot{
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.elonmark {
+	background-color:aliceblue;
+	border-radius: 1rem;
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+	display: flex;	
+	margin: 1.5rem;
+	overflow: hidden;
+	width: 30rem;
+	height: 17rem;
+}
+
+.columna {	
+	padding: 2rem;
+	max-width: 10rem;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.columna i {
+	font-size: 5rem
+}
+
+.hhh {
+	padding: 30px;
+	width: 100%;
+    padding-top: 60px;
+	
+}
+
+.elon{
+    width: 160px;
+    height: 185px;
+}
+.mark{
+    width: 155px;
+height: 183px;
+}
 /* MEDIDAS PARA RESPONSIVE */
 @media(max-width: 650px) {
 	.h{
@@ -473,7 +531,13 @@ margin-left: 20px;
     .cajita{
       width: 300px;
     }
-  }
+    .tarjetasprogramadores{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height:auto;
+    }
+    }
   @media(max-width: 760px){
     .paarrafo p{
       font-size: 17px;
@@ -532,3 +596,10 @@ margin-left: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
+  @media(max-width:600px) {
+    .elonmark{
+        width: auto;
+margin-left: 18px;
+margin-right: 18px;
+    }
+}
