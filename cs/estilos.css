@@ -460,6 +460,7 @@ justify-content: center;
 .facebot{
 	font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
+  margin-top: -20px;
 
 }
 .elonmark {
@@ -496,12 +497,15 @@ justify-content: center;
 }
 
 .elon{
-    width: 160px;
-    height: 185px;
-}
-.mark{
     width: 155px;
-height: 183px;
+    border: solid white 2px;
+    border-radius: 1rem;
+
+}
+.mmark{
+    width: 155px;
+    border: solid white 2px;
+    border-radius: 1rem;
 }
 /* MEDIDAS PARA RESPONSIVE */
 @media(max-width: 650px) {
@@ -594,12 +598,14 @@ margin-left: 20px;
     font-size: 0.7cm;
   }
 }
-
-/*# sourceMappingURL=estilos.css.map */
-  @media(max-width:600px) {
-    .elonmark{
-        width: auto;
+@media(max-width:600px) {
+  .elonmark{
+      width: auto;
 margin-left: 18px;
 margin-right: 18px;
-    }
+  }
+  .facebot{
+    font-size: 20px;
+  }
 }
+/*# sourceMappingURL=estilos.css.map */
