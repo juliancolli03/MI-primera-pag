@@ -384,6 +384,9 @@ font-family: 'Varela Round', sans-serif;
 -webkit-animation: focus-in-contract-bck 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: focus-in-contract-bck 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+.elonymark{
+  font-size: 20px;
+}
 
 /* PAGINA CREADORA DEL EFECTO */
 /* ----------------------------------------------
@@ -560,6 +563,9 @@ margin-left: 20px;
     font-size: 12px;
     width: 350px;
   }
+  .elonymark{
+    font-size: 17px;
+  }
 }
 @media(max-width: 650px) {
   .contenedor {
@@ -607,5 +613,10 @@ margin-right: 18px;
   .facebot{
     font-size: 20px;
   }
+}
+@media(max-width:420px){
+.elonymark{
+  font-size: 14px;
+}
 }
 /*# sourceMappingURL=estilos.css.map */
