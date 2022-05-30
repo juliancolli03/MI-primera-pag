@@ -306,7 +306,6 @@ form {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 400px;
 }
 .cajita{
 	height: 400px;
@@ -384,6 +383,12 @@ form {
 }
 .elonymark{
   font-size: 20px;
+}
+.beats{
+  padding-right: 100px;
+}
+.g1{
+  margin-left: -10px;
 }
 /* PAGINA CREADORA DEL EFECTO */
 /* ----------------------------------------------
@@ -577,6 +582,9 @@ main{
   .diviframe{
     display: block;
   }
+  .beats{
+    padding-right:0px;
+  }
 }
 @media (max-width:450px){
   .parrafo{
@@ -595,12 +603,19 @@ margin-right: 18px;
   .facebot{
     font-size: 20px;
   }
-  .gmaps{
-    width: auto;
-    margin-top: 20px;
-    margin-left: 20px;
+  .spotify{
+    width: 300px;
   }
-}
+  .ubicacion{
+    width: 300px;
+  }
+  .beats{
+    text-align: center;
+  }
+  .gmaps{
+    text-align: center;
+  }
+} 
 @media(max-width:420px){
 .elonymark{
   font-size: 14px;
