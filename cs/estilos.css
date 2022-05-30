@@ -39,9 +39,6 @@ body {
   background: #485089;
   background: -webkit-gradient(linear, left top, right top, from(#485089), color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, #90bdd7), to(rgba(2, 6, 6, 0.15687)));
   background: linear-gradient(90deg, #485089 0%, rgba(0, 0, 0, 0) 0%, #90bdd7 0%, rgba(2, 6, 6, 0.15687) 100%);
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -317,6 +314,11 @@ form {
 	text-align: center;
 	border: #78d9f1 5px solid;
 }
+.cajita:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+  transition: 0.3s;
+}
 .caja2iconos{
 	display: flex;
 	justify-content: center;
@@ -526,7 +528,6 @@ main{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height:auto;
     }
     }
   @media(max-width: 760px){
@@ -535,6 +536,12 @@ main{
     }
     .tituloscajas{
       font-size: 17px;
+    }
+    .h{
+      display: grid;
+    }
+    .cajita {
+      width: 350px;
     }
   }
   @media(max-width: 386px){
@@ -592,6 +599,9 @@ main{
   }
   .lorem{
     font-size: 0.7cm;
+  }
+  .cajita {
+    width: 300px;
   }
 }
 @media(max-width:600px) {
