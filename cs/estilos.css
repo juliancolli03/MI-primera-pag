@@ -40,6 +40,7 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(#485089), color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, #90bdd7), to(rgba(2, 6, 6, 0.15687)));
   background: linear-gradient(90deg, #485089 0%, rgba(0, 0, 0, 0) 0%, #90bdd7 0%, rgba(2, 6, 6, 0.15687) 100%);
   display: flex;
+  min-height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -127,8 +128,6 @@ form {
   width: 450px;
   margin: auto;
   padding: 10px 20px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   margin-top: 20px;
   border-radius: 20px;
   color: #fff;
@@ -190,9 +189,8 @@ form {
   background: #333;
   color: white;
   line-height: 50px;
-  font-size: 20px;
-  box-shadow: 0 3px 5px 0px black;
   transition: .2s;
+  font-size: 20px;
   border-radius: 30px;
   animation: move linear 2000ms infinite;
 }
@@ -263,7 +261,6 @@ form {
 }
 .redes-container ul li a:hover{
   transform: translateY(-3px) scale(1.06);
-  box-shadow: 0 5px 5px 0px black;
   filter: none;
 }
 .redes-container ul li .insta:hover{
@@ -283,7 +280,7 @@ form {
   color: #1d1d19;
 }
 .futuro{
-  display: inherit;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -313,6 +310,7 @@ form {
 	margin: 15px;
 	text-align: center;
 	border: #78d9f1 5px solid;
+  transition: .2s;
 }
 .cajita:hover{
 	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
@@ -499,7 +497,7 @@ form {
   border: solid white 2px;
   border-radius: 1rem;
 }
-main{
+.main{
   background-image: url(../fotocodigo.jpg);
 }
 /* MEDIDAS PARA RESPONSIVE */
