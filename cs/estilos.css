@@ -68,7 +68,6 @@ h2 {
   padding: 10px;
 }
 .parrafo {
-  display: grid;
   font-size: 0.9cm;
   line-height: 60px;
   margin: 130px 10px 10px 10px;
@@ -143,9 +142,6 @@ form {
 .contacto-formulario form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-.contacto-formulario form label {
-  display: block;
 }
 .contacto-formulario form p {
   margin: 0;
@@ -299,7 +295,6 @@ form {
 .h{
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
 .cajita{
 	height: 400px;
@@ -323,7 +318,6 @@ form {
 }
 .cajita i{
 	font-size: 50px;
-	display: block;
 	text-align: center;
 	margin: 25px 0px;
 }
@@ -363,7 +357,6 @@ form {
 }
 /* PAG SOBREMI Y PORQUECONTRATARME */
 .lorem {
-  display: block;
   color: rgb(24, 23, 23);
   font-size: 0.9cm;
   line-height: 50px;
