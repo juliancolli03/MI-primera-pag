@@ -3,12 +3,13 @@
   margin: 0;
   padding: 0;
 }
+
 /* ---NAV---- */
 .nav-link{
   display: inline-block;
 }
 .navbar_style ul li a:hover {
-  color: 	#fc4b08 !important;
+  color: 	white !important;
 }
 header ul li a {
   color: white;
